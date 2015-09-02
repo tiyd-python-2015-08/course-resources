@@ -19,5 +19,7 @@
   * [Homework review, Git workflow](http://youtu.be/PGLfgrKLh5E)
   * [GCD (mostly off screen - sorry!)](http://youtu.be/Et0v7zpGxeo)
   * [Strings, Lists, Sorting, Tuples, Ranges](http://youtu.be/s4GBJahSZPE)
+  * [Recursion bonus lecture](http://youtu.be/oEx2UMc1iCo)
 * Notebooks
-  * [](w1d3.ipynb)
+  * [Homework review, Git workflow, GCD, Strings, Lists, Sorting, Tuples, Ranges](w1d3.ipynb)
+  * [Recursion bonus](http://youtu.be/oEx2UMc1iCo)
