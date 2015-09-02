@@ -13,3 +13,11 @@
   * [Functions, recursion, git](http://youtu.be/mYNQy1CUKGM)
 * Notebooks
   * [Input, output, conditionals, loops, functions, recursion, git](w1d2.ipynb)
+
+### Week 1, Day 3
+* Videos
+  * [Homework review, Git workflow](http://youtu.be/PGLfgrKLh5E)
+  * [GCD (mostly off screen - sorry!)](http://youtu.be/Et0v7zpGxeo)
+  * [Strings, Lists, Sorting, Tuples, Ranges](http://youtu.be/s4GBJahSZPE)
+* Notebooks
+  * [](w1d3.ipynb)
