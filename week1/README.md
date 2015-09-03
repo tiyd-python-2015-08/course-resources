@@ -22,4 +22,13 @@
   * [Recursion bonus lecture](http://youtu.be/oEx2UMc1iCo)
 * Notebooks
   * [Homework review, Git workflow, GCD, Strings, Lists, Sorting, Tuples, Ranges](w1d3.ipynb)
-  * [Recursion bonus](http://youtu.be/oEx2UMc1iCo)
+  * [Recursion bonus](w1d3 recursion practice.ipynb)
+
+### Week 1, Day 4
+* Videos
+  * [Homework review, String methods](http://youtu.be/S-g9ux-lDhA)
+  * [Sorting, lambda functions](https://youtu.be/2YQNx57q29w)
+  * [Dictionaries](https://youtu.be/RmrcAAS00Tg)
+  * [File I/O, TDD & testing, main](https://youtu.be/Lz4V8FCllRQ)
+* Notebooks
+  * [Homework review, String methods, Sorting, lambda functions, Dictionaries, File I/O, TDD & testing, main](w1d4.ipynb)
