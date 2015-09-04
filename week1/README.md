@@ -36,5 +36,6 @@
 ### Week 1, Day 5
 * Videos
   * [Homework review](http://youtu.be/KeDsaJAEVMg)
+  * [Weekend homework preview](http://youtu.be/A8mSA7n5J-8)
 * Notebooks
   * [Homework review](w1d5.ipynb)
