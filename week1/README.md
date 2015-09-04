@@ -32,3 +32,9 @@
   * [File I/O, TDD & testing, main](https://youtu.be/Lz4V8FCllRQ)
 * Notebooks
   * [Homework review, String methods, Sorting, lambda functions, Dictionaries, File I/O, TDD & testing, main](w1d4.ipynb)
+
+### Week 1, Day 5
+* Videos
+  * [Homework review](http://youtu.be/KeDsaJAEVMg)
+* Notebooks
+  * [Homework review](w1d5.ipynb)
