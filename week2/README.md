@@ -22,5 +22,8 @@
 
 ## Week 2, Day 1
 ### Videos
+* [Homework Review](http://youtu.be/vMp_WgKDmHw)
+* [Comprehensions and Sets](http://youtu.be/9H4lQh7rNYk)
+* [Pair Programming](http://youtu.be/zmUtq4ILud8)
 ### Notebooks
 * [Comprehensions and Sets](w2d1.ipynb)
