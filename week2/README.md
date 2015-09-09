@@ -30,5 +30,7 @@
 
 ## Week 2, Day 2
 ### Videos
+* [Homework Review](http://youtu.be/lp8Pfc6mXCY)
+* [Exceptions, matrices, nose](http://youtu.be/fWQPrIrPQJI)
 ### Notebooks
 * [Exceptions, nose](w2d2.ipynb)
