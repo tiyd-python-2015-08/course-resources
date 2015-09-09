@@ -27,3 +27,8 @@
 * [Pair Programming](http://youtu.be/zmUtq4ILud8)
 ### Notebooks
 * [Comprehensions and Sets](w2d1.ipynb)
+
+## Week 2, Day 2
+### Videos
+### Notebooks
+* [Exceptions, nose](w2d2.ipynb)
