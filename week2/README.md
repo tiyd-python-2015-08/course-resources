@@ -42,6 +42,7 @@
 * [Homework Review, splats](https://youtu.be/VdTX8sohFM0)
 * [Classes and Objects](https://youtu.be/bODm2qlQsjQ)
 * [Object oriented design](https://youtu.be/8IF1nM3AuPk)
+* [Random Review](https://youtu.be/wLNZLb_-HLM)
 
 ### Notebooks
 * [Splats](w2d3 - splats.ipynb)
