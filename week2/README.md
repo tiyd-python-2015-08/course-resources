@@ -34,3 +34,13 @@
 * [Exceptions, matrices, nose](http://youtu.be/fWQPrIrPQJI)
 ### Notebooks
 * [Exceptions, nose](w2d2.ipynb)
+
+## Week 2, Day 3
+### Videos
+* [Homework Review, splats](https://youtu.be/VdTX8sohFM0)
+* [Classes and Objects](https://youtu.be/bODm2qlQsjQ)
+* [Object oriented design](https://youtu.be/8IF1nM3AuPk)
+### Notebooks
+* [Splats](w2d3 - splats.ipynb)
+* [Classes and objects](w2d3 - classes and objects.ipynb)
+* [Random Review](w2d3 - Random Review.ipynb)
