@@ -48,3 +48,12 @@
 * [Splats](w2d3 - splats.ipynb)
 * [Classes and objects](w2d3 - classes and objects.ipynb)
 * [Random Review](w2d3 - Random Review.ipynb)
+
+
+## Week 2, Day 4
+### Videos
+* [Homework Review, classes](https://youtu.be/1P-OuSmLLOc)
+* [CSV files](https://youtu.be/afUHueUgoX0)
+
+### Notebooks
+* [Naming, CSV files](w2d4.ipynb)
