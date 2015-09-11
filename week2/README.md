@@ -53,7 +53,7 @@
 ## Week 2, Day 4
 ### Videos
 * [Homework Review, classes](https://youtu.be/1P-OuSmLLOc)
-* [CSV files](https://youtu.be/afUHueUgoX0)
+* [CSV files](https://youtu.be/spvBkn73Ayw)
 
 ### Notebooks
 * [Naming, CSV files](w2d4.ipynb)
