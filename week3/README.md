@@ -1,0 +1,24 @@
+# Week 3
+
+## Learning Objectives
+
+1. Employ the Python `random` module to model random processes
+2. Generate images with Python
+3. Understand the use of basic statistics such as mean and standard deviation
+4. Compute statistics using Python
+5. Identify and choose different plot types
+6. Create plots with matplotlib
+7. Combine code and findings using IPython Notebook
+8. Simulate games and processes using randomness ("Monte Carlo simulations")
+9. Organize code into subclasses in simulations to create variations
+10. Use NumPy to solve complex statistical problems
+
+## Week 2, Day 1
+### Videos
+* [HW Review part 1](https://youtu.be/nKnC68Zqg7o)
+* [HW Review part 2](https://youtu.be/kC3hyAjpeKo)
+* [HW Review part 3](https://youtu.be/-jPo_4aupMk)
+* [The random module, requirements.txt](https://youtu.be/VumNwzqx0EY)
+
+### Notebooks
+* [The random module, requirements.txt](w3d1.ipynb)
