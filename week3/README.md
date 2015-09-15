@@ -22,3 +22,12 @@
 
 ### Notebooks
 * [The random module, requirements.txt](w3d1.ipynb)
+
+## Week 2, Day 2
+### Videos
+* [HW Review](https://youtu.be/P1GVjg9mU9Q)
+* [Statistics](https://youtu.be/yJLjyb8Ldm8)
+* [Plotting](https://youtu.be/7Np-vZJ_xZs)
+
+### Notebooks
+* [HW Review, Statistics, Plotting](w3d2.ipynb)
