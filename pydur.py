@@ -13,7 +13,7 @@ Michael Krawiec
 Tyler Kotkin
 Andrew Pierce
 Kathleen Rauh
-Brent Hilsabeck'''
+Danai Adkisson'''
 
 # turn into a list
 students = students.split('\n')
