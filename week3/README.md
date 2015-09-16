@@ -13,7 +13,7 @@
 9. Organize code into subclasses in simulations to create variations
 10. Use NumPy to solve complex statistical problems
 
-## Week 2, Day 1
+## Week 3, Day 1
 ### Videos
 * [HW Review part 1](https://youtu.be/nKnC68Zqg7o)
 * [HW Review part 2](https://youtu.be/kC3hyAjpeKo)
@@ -23,7 +23,7 @@
 ### Notebooks
 * [The random module, requirements.txt](w3d1.ipynb)
 
-## Week 2, Day 2
+## Week 3, Day 2
 ### Videos
 * [HW Review](https://youtu.be/P1GVjg9mU9Q)
 * [Statistics](https://youtu.be/yJLjyb8Ldm8)
@@ -31,3 +31,14 @@
 
 ### Notebooks
 * [HW Review, Statistics, Plotting](w3d2.ipynb)
+
+## Week 3, Day 3
+### Videos
+* [HW Review](https://youtu.be/QrjChxluYv0)
+* [Simulations pt1](https://youtu.be/f4AMwxfe0r4)
+* [Simulations pt2](https://youtu.be/V80GtumXkEs)
+
+### Notebooks
+* [Simulations](w3d3.ipynb)
+* [Roomba Simulation](Roomba.ipynb)
+* [Pig Example/subclasses](pig-example.ipynb)
