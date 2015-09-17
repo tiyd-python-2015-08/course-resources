@@ -48,6 +48,7 @@
 * [HW Review](https://youtu.be/q3EcMRCfZKg)
 * [NumPy](https://youtu.be/20ubMyYNYkM)
 * [Store cashier simulation](https://youtu.be/IrqKwq42Dc0)
+* [Review Session](https://youtu.be/tveWezy1s9A)
 
 ### Notebooks
 * [HW Review, NumPy, Cashier Simulation](w3d4.ipynb)
