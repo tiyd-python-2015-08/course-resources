@@ -42,3 +42,12 @@
 * [Simulations](w3d3.ipynb)
 * [Roomba Simulation](Roomba.ipynb)
 * [Pig Example/subclasses](pig-example.ipynb)
+
+## Week 3, Day 4
+### Videos
+* [HW Review](https://youtu.be/q3EcMRCfZKg)
+* [NumPy](https://youtu.be/20ubMyYNYkM)
+* [Store cashier simulation](https://youtu.be/IrqKwq42Dc0)
+
+### Notebooks
+* [HW Review, NumPy, Cashier Simulation](w3d4r.ipynb)
