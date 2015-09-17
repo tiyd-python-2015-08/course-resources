@@ -50,4 +50,4 @@
 * [Store cashier simulation](https://youtu.be/IrqKwq42Dc0)
 
 ### Notebooks
-* [HW Review, NumPy, Cashier Simulation](w3d4r.ipynb)
+* [HW Review, NumPy, Cashier Simulation](w3d4.ipynb)
