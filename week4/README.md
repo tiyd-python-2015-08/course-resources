@@ -19,3 +19,22 @@
 * [More Pandas](https://youtu.be/VgibAmGYKgo)
 * [HW Intro](https://youtu.be/gSj-0fVWFuw)
 * [Classes review](https://youtu.be/mKIzsydWjxA)
+
+### Notebooks
+* [w4d1](w4d1.ipynb)
+* [w4d1-cleaning](w4d1-cleaning.ipynb)
+* [w4d1-review](w4d1-review.ipynb)
+* [w4d1-household](w4d1-household.ipynb)
+
+## Week 4, Day 2
+### Videos
+* [Homework Review](https://youtu.be/n-fsSXsmwmI)
+* [Pandas and DataFrames](https://youtu.be/pLPjVD4PaSQ)
+* [UFO data and regexes](https://youtu.be/gdAp989dZrw)
+* [More regexes](https://youtu.be/yMO5s8PsviM)
+
+### Notebooks
+* [w4d2](w4d2.ipynb)
+* [HW Review](w4d2-hw-review.ipynb)
+* [UFO data](w4d2-ufo.ipynb)
+* [Regex](w4d2-regex.ipynb)
