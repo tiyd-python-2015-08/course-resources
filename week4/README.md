@@ -38,3 +38,11 @@
 * [HW Review](w4d2-hw-review.ipynb)
 * [UFO data](w4d2-ufo.ipynb)
 * [Regex](w4d2-regex.ipynb)
+
+## Week 4, Day 3
+### Videos
+* [Tools, Homework Review](https://youtu.be/GXuxsaIEUGE)
+* [MovieLens revisited w/ Pandas](https://youtu.be/1Roq_dvimJk)
+
+### Notebooks
+* [Tools, MovieLens](w4d3.ipynb)
