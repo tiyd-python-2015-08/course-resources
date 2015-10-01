@@ -37,3 +37,15 @@ James was gone today, so there were no recordings of lecture.
 * [Checking Results](w5d3-checking-results.ipynb)
 * [Bayesian Reasoning](w5d3-bayesian-reasoning.ipynb)
 * [Bayesian Classification](w5d3-bayesian-classification.ipynb)
+
+
+## Week 5, Day 4
+### Videos
+* [HW Review](https://youtu.be/NSaGebkFGwQ)
+* [Decision Trees, pt. 1](https://youtu.be/7QOxcvGSQEs)
+* [Decision Trees, pt. 2](https://youtu.be/oHdxStkdkw4)
+* [Building SciKit-Learn transformers](https://youtu.be/dW75UNeVIVI)
+
+### Notebooks
+* [Decision Trees](w5d4-decision-trees.ipynb)
+* [SciKit-Learn Transformers](w5d4-smsspam.ipynb)
