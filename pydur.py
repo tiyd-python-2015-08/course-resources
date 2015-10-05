@@ -3,7 +3,6 @@ import random
 students = '''Robert Amand
 Ryan Burton
 William Butts
-David Denney
 Jonathan Frederick
 Adam Hartz
 Glenn Hurley
@@ -12,11 +11,11 @@ Jermaine Kee
 Michael Krawiec
 Tyler Kotkin
 Andrew Pierce
-Kathleen Rauh
-Danai Adkisson'''
+Kathleen Rauh'''
 
 # turn into a list
 students = students.split('\n')
+
 
 def get_pairings(students):
     return list({
