@@ -32,11 +32,11 @@
 
 ## Week 6, Day 2
 ### Videos
-* [Homework Review]
-* [Django project]
-* [Django apps/migrations]
+* [Homework Review](https://youtu.be/osg67jhyFxw)
+* [Django project](https://youtu.be/kVPn1bkNJ44)
+* [Django apps/migrations](https://youtu.be/E0G8ZTeCJ28)
 
 ### Resources
 * [HW Review CodePen](http://codepen.io/jamesmallen/pen/GpmvXx)
 * [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.8/intro/tutorial01/)
-* [Blabber as of end of class](https://github.com/tiyd-python-2015-08/blabber/tree/9d699894ce18c81ba1fa28552805b447482327ef)
+* [Blabber code as of 12:30](https://github.com/tiyd-python-2015-08/blabber/tree/9d699894ce18c81ba1fa28552805b447482327ef)
