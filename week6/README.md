@@ -25,3 +25,18 @@
 
 ### Notebooks
 * [Homework Review](w6d1-hw-review.ipynb)
+
+### Resources
+* [W3Schools HTML](http://www.w3schools.com/html/default.asp)
+* [W3Schols CSS](http://www.w3schools.com/css/default.asp)
+
+## Week 6, Day 2
+### Videos
+* [Homework Review]
+* [Django project]
+* [Django apps/migrations]
+
+### Resources
+* [HW Review CodePen](http://codepen.io/jamesmallen/pen/GpmvXx)
+* [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.8/intro/tutorial01/)
+* [Blabber as of end of class](https://github.com/tiyd-python-2015-08/blabber/tree/9d699894ce18c81ba1fa28552805b447482327ef)
