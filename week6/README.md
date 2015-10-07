@@ -42,3 +42,15 @@
 * [Writing your first Django app, part 1](https://docs.djangoproject.com/en/1.8/intro/tutorial01/)
 * [Blabber code as of 12:30](https://github.com/tiyd-python-2015-08/blabber/tree/9d699894ce18c81ba1fa28552805b447482327ef)
 * [Writing your first Django app, part 2](https://docs.djangoproject.com/en/1.8/intro/tutorial02/)
+
+## Week 6, Day 3
+### Videos
+* [Homework Review](https://youtu.be/Tfhc0HSxODk)
+* [Git branching/merging/pull requests, loading data](https://youtu.be/2LjBf1Ecz5k)
+* [Views](https://youtu.be/SW0fGKUgOfk)
+* [Fixtures, view tricks](https://youtu.be/tPz1fbf6D4I)
+
+### Resources
+* [Writing your first Django app, part 3](https://docs.djangoproject.com/en/1.8/intro/tutorial03/)
+* [Fixtures](https://docs.djangoproject.com/en/1.8/howto/initial-data/)
+* [Script to convert MovieLens 1M data to JSON](https://github.com/tiyd-python-2015-08/movielens/blob/load-ml-data/moviedb/models.py#L49)
