@@ -54,3 +54,9 @@
 * [Writing your first Django app, part 3](https://docs.djangoproject.com/en/1.8/intro/tutorial03/)
 * [Fixtures](https://docs.djangoproject.com/en/1.8/howto/initial-data/)
 * [Script to convert MovieLens 1M data to JSON](https://github.com/tiyd-python-2015-08/movielens/blob/load-ml-data/moviedb/models.py#L49)
+
+## Week 6, Day 4
+### Videos
+* [HW Review 1](https://youtu.be/bwkmNAaoECA)
+* [HW Review 2](https://youtu.be/osWTDnf8x6E)
+* [Forms](https://youtu.be/P5XuYteTYXA)
