@@ -8,3 +8,8 @@
 * [Blabber, pt 2](https://youtu.be/Wk2OiVmqn4c)
 * [Blabber, pt 3](https://youtu.be/iUPrXrf7AEM)
 * [Blabber, pt 4](https://youtu.be/o58C7g9Vhjk)
+
+
+## Week 7, Day 2
+### Links
+* [PostgreSQL and Django](PostgreSQL-and-Django.md)
