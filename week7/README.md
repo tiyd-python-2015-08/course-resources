@@ -11,5 +11,12 @@
 
 
 ## Week 7, Day 2
+### Videos
+* [HW Review, pt 1](https://youtu.be/tH__CcVHSIc)
+* [HW Review, pt 2](https://youtu.be/TOuI78CGN6U)
+* [Blabber, pt 1](https://youtu.be/dspeIZgIMKI)
+* [Blabber, pt 2](https://youtu.be/yCgLrxBak-s)
+
 ### Links
 * [PostgreSQL and Django](PostgreSQL-and-Django.md)
+* [BootStrap CodePen](http://codepen.io/jamesmallen/pen/YyxbzN?editors=110)
