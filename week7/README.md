@@ -16,6 +16,7 @@
 * [HW Review, pt 2](https://youtu.be/TOuI78CGN6U)
 * [Blabber, pt 1](https://youtu.be/dspeIZgIMKI)
 * [Blabber, pt 2](https://youtu.be/yCgLrxBak-s)
+* [URLs review session](https://youtu.be/-o9oXjB5MQA)
 
 ### Links
 * [PostgreSQL and Django](PostgreSQL-and-Django.md)
