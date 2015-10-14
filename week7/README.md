@@ -21,3 +21,16 @@
 ### Links
 * [PostgreSQL and Django](PostgreSQL-and-Django.md)
 * [BootStrap CodePen](http://codepen.io/jamesmallen/pen/YyxbzN?editors=110)
+
+
+## Week 7, Day 3
+### Videos
+* [HW Review](https://youtu.be/UGcbcF6hzes)
+* [Generic Views](https://youtu.be/8MQ2AJPpNl8)
+* [Request/Response objects](https://youtu.be/mv-h-EC_sUo)
+
+### Links
+* [Django tutorial - Generic Views](https://docs.djangoproject.com/en/1.8/intro/tutorial04/#use-generic-views-less-code-is-better)
+* [Classy Class-Based Views](http://ccbv.co.uk/)
+* [HTTP.cat](http://http.cat)
+* [Chapter on cookies from Tango with Django](http://www.tangowithdjango.com/book/chapters/cookie.html)
