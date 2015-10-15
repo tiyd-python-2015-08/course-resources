@@ -34,3 +34,14 @@
 * [Classy Class-Based Views](http://ccbv.co.uk/)
 * [HTTP.cat](http://http.cat)
 * [Chapter on cookies from Tango with Django](http://www.tangowithdjango.com/book/chapters/cookie.html)
+
+
+## Week 7, Day 4
+### Videos
+* [3 Little Things](https://youtu.be/scLypDRjCwk)
+* [Testing in Django](https://youtu.be/_rYz59QgoJg)
+* [URLy bird and Git collaboration](https://youtu.be/rlUae_mrum8)
+
+### Links
+* [Obey the Testing Goat](http://www.obeythetestinggoat.com/)
+* [Superlists](https://github.com/jamesmallen/superlists)
