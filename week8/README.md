@@ -18,3 +18,8 @@
 * [HW Review](https://youtu.be/fwSmGTikYIE)
 * [Django REST Framework](https://youtu.be/t3ldKUKnqbg)
 * [Authenticating API calls, HW Intro](https://youtu.be/_lQ1sp-9xq0)
+
+## Week 8, Day 4
+
+### Links
+* [Heroku deployment steps](heroku_steps.md)
