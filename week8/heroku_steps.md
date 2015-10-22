@@ -21,7 +21,7 @@ Run the following commands _just once_ for your system to install the heroku too
 
   `heroku create`
 
-1. Set your Heroku environment variables:
+1. Set your Heroku environment variables (replace `todomvc` with the folder name of your project):
 
   ```
   heroku config:set DJANGO_SETTINGS_MODULE=todomvc.heroku_settings
@@ -85,16 +85,21 @@ Run the following commands _just once_ for your system to install the heroku too
   ```
 
 1. Stage/commit your code to the master branch, then push that up to heroku:
+
   ```
-  git checkout master
-  git commit -m "Added files for heroku"
   git push heroku
   ```
 
-1. Spin up a dyno: `heroku ps:scale web=1`
+1. Spin up a dyno:
 
-1. Migrate your database on heroku (replace `todomvc` with the folder name of your project): `heroku run python todomvc/manage.py migrate`
+  `heroku ps:scale web=1`
 
-1. Open up the app: `heroku open`
+1. Migrate your database on heroku (replace `todomvc` with the folder name of your project):
+
+  `heroku run python todomvc/manage.py migrate`
+
+1. Open up the app:
+
+  `heroku open`
 
 Check out [this page from Heroku](https://devcenter.heroku.com/articles/getting-started-with-django) for more detailed information.
