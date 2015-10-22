@@ -21,5 +21,11 @@
 
 ## Week 8, Day 4
 
+### Videos
+* [HW Review](https://youtu.be/70K-dex9xLw)
+* [Heroku pt 1](https://youtu.be/iyvTTDAJBv8)
+* [Heroku pt 2](https://youtu.be/jcUnnLEkxTw)
+* [Heroku pt 3](https://youtu.be/eIpoCrEgfVw)
+
 ### Links
 * [Heroku deployment steps](heroku_steps.md)
