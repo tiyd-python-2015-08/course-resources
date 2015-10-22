@@ -29,14 +29,14 @@ Run the following commands _just once_ for your system to install the heroku too
   heroku config:set SECRET_KEY=`python -c 'import random; print("".join([random.choice("abcdefghijklmnopqrstuvwxyz0123456789") for i in range(50)]))'`
   ```
 
-1. Create `heroku_setings.py` in the same folder as your `settings.py`. Example:
+1. Create `heroku_settings.py` in the same folder as your `settings.py`. Example:
 
   ```python
   from .settings import *
   import os
   import dj_database_url
 
-  DEBUG = False
+  DEBUG = bool(int(os.environ.get('DEBUG', False)))
   SECRET_KEY = os.environ['SECRET_KEY']
 
   BLACKLIST_APPS = ['debugtoolbar', 'django_extensions']
@@ -56,8 +56,11 @@ Run the following commands _just once_ for your system to install the heroku too
   STATIC_URL = '/static/'
 
   STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
   ```
+
+1. Modify your `settings.py` file to ensure you have a `STATIC_ROOT` setting:
+
+  `STATIC_ROOT = 'staticfiles'`
 
 1. Modify `wsgi.py` to wrap `get_wsgi_application` with `DjangoWhiteNoise` (replace `todomvc` with the folder name of your project):
 
@@ -83,6 +86,19 @@ Run the following commands _just once_ for your system to install the heroku too
   ```
   python-3.4.3
   ```
+
+1. Create a `.env` file for `heroku local` (replace `todomvc` with the folder name of your project):
+
+  ```
+  DATABASE_URL=postgres:///todomvc
+  DJANGO_SETTINGS_MODULE=todomvc.heroku_settings
+  PYTHONPATH=todomvc
+  SECRET_KEY=cs5uqcpzq89op51beua4x8yhqh7ep4ows73qkb2y0misd3ncf7
+  ```
+
+1. Test your installation locally:
+
+  `heroku local`
 
 1. Stage/commit your code to the master branch, then push that up to heroku:
 
