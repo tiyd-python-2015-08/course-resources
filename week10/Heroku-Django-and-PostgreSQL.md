@@ -21,19 +21,20 @@ _(only do these steps **once** on your machine)_
 
 ## Create your working environment
 
-1. ```
+1. Create your folder and `.envrc` file:
+
+  ```
   mkdir [YOUR PROJECT NAME]
   cd [YOUR PROJECT NAME]
   echo layout python3>.envrc
   ```
+
 1. `direnv allow`
 1. `pip install django`
 
 ## Clone the starter project
 
-1. ```
-  django-admin startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile [YOUR PROJECT NAME] .
-  ```
+1. `django-admin startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile [YOUR PROJECT NAME] .`
 1. Update `requirements.txt` to point to the latest versions of available packages:
   ```
   dj-database-url
@@ -46,7 +47,9 @@ _(only do these steps **once** on your machine)_
   ```
 1. `pip install -r requirements.txt`
 1. Refreeze requirements.txt:
+
   `pip freeze > requirements.txt`
+
 1. `python manage.py startapp [YOUR APP NAME]`
 1. Initialize your local git repository:
 
@@ -58,7 +61,7 @@ You can add various lines to your `.envrc` file to adjust your local environment
 
 1. To use PostgreSQL for local development (recommended):
 
-  `export DATABASE_URL=postgresql:///[YOUR PROJECT NAME]``
+  `export DATABASE_URL=postgresql:///[YOUR PROJECT NAME]`
 
 1. To enable DEBUG mode on your local machine:
 
@@ -93,7 +96,9 @@ You can add various lines to your `.envrc` file to adjust your local environment
 
 ## Deploy to Heroku
 
-1. ```
+1. Add your git files, commit, and push:
+
+  ```
   git add -A
   git commit -m "Initial commit for Heroku"
   git push heroku master
@@ -137,6 +142,7 @@ Check out [this page from Heroku](https://devcenter.heroku.com/articles/getting-
 
 ### Wiping the DB
 If you need to trash the local database, you don't need to repeat all of the above steps. Just run the following commands to delete and recreate your db:
+
 ```
 dropdb [YOUR PROJECT NAME]
 python manage.py migrate
