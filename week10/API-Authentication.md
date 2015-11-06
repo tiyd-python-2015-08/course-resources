@@ -1,14 +1,18 @@
-
+# API Authentication
 
 Session-based authentication is intended to work on the same server, and thus not well-suited for APIs.
 
-Basic authentication _works_, but it means that the front-end needs to store the username and password somewhere, unencrypted.
+Basic authentication _works_, but it means that the front-end needs to store the username and password somewhere.
 
-Token-based authentication is a compromise - it involves always sending a header with a **token** that the front-end needs to store, but the token is a unique key that is generated when the user logs in, and thus cannot expose the user's password.
+Token-based authentication is a compromise - it involves always sending a header with a **token** that the front-end needs to store, but the token is a unique key that is generated when the user logs in, and thus cannot does not expose the user's password if it becomes compromised.
 
 It is **imperative** that token-based authentication be used only over HTTPS - if someone intercepts the token, they can effectively masquerade as the logged-in user.
 
 Django REST Framework offers some shortcuts to make using token-based authentication relatively simple!
+
+## Back-end
+
+You don't have to write much code, just add an installed app, add TokenAuthentication to the list of authentication classes, wire up a pre-made view to allow for logging in, and then migrate your database.
 
 ### settings.py
 
@@ -36,6 +40,12 @@ urlpatterns = [
     # e.g., r'^api/login'
     url(r'^api-token-auth/', 'rest_framework.authtoken.views.obtain_auth_token'),
 ]
+```
+
+### Database
+
+```bash
+python manage.py migrate
 ```
 
 
@@ -86,3 +96,12 @@ def logout(request):
 ```
 
 If a user attempts to POST to this page without passing in their token, they receive a 403 error. Otherwise, the token for the user gets deleted, and a simple response is returned letting them know it was successful.
+
+
+## More details
+
+You can take a look at the `authtoken` code on [GitHub](https://github.com/tomchristie/django-rest-framework/tree/master/rest_framework/authtoken). The `rest_framework.authtoken` app introduces a new Model, `rest_framework.authtoken.models.Token`. This Model consists of the token, which is a randomly generated 40-digit hex key, and a OneToOne relationship with the `User` Model.
+
+This means each user has one and only one token. If a user attempts to log in who has logged in before, they reuse the token that was previously generated for them, unless they have explicitly deleted the token by logging out.
+
+This is generally good enough if all communication happens over HTTPS and the token is never stored other than in a protected cookie with the front-end side of things, but you could extend the token model if you wanted additional security.
