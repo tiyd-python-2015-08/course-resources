@@ -67,3 +67,22 @@ Authorization: Token 0cd22429267deae3b7efb2c96012ff4b01792780
 ```
 
 Note that the header name is `Authorization` and the value must be the word `Token` followed by whitespace followed by the `token` value returned from the obtain_auth_token view. Any extra punctuation or forgetting the word `Token` will result in an authentication failure!
+
+
+## Logging out
+
+To log out, you have two options: one, the front-end just "forgets" the token. This isn't particularly secure, because if somehow the token became compromised it would continue to work.
+
+A better solution is to have a view that actually *deletes* the token from the database. Future login attempts will generate new tokens.
+
+Here's a sample view to accomplish this:
+
+```python
+@api_view(['POST'])
+@permission_classes((IsAuthenticated,))
+def logout(request):
+    Token.objects.get(user=request.user).delete()
+    return Response({'username': None})
+```
+
+If a user attempts to POST to this page without passing in their token, they receive a 403 error. Otherwise, the token for the user gets deleted, and a simple response is returned letting them know it was successful.
